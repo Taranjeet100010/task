@@ -1,0 +1,9 @@
+.sidebar{
+    width : 100%;
+    border-right: 1px solid #ffffff;
+    background-color: rgb(211, 131, 34);
+    height: 100%;
+}
+.sidebar ul{
+   list-style-type: none;   
+}

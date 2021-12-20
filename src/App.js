@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import AddUser from './components/User/AddUser';
+import Card from './components/UI/Card';
+import AddSidebar from './components/SIdebar/AddSidebar';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="first_section"><AddSidebar /></div>
+      <div className="second_section"> <Card>
+        <AddUser />
+      </Card>
+      </div>
     </div>
   );
 }
-
 export default App;
